@@ -1,6 +1,9 @@
+import os
 import socket
 import struct
 import datetime
+import textwrap
+
 
 # Function to format the packet information
 def format_packet(packet):
@@ -23,7 +26,10 @@ def format_packet(packet):
 
     cache_control = (tcp_header[6] & 0xFF00) >> 8
 
-    data = packet[54:].hex()  # Convert data to hexadecimal
+    hex_data = packet[54:].hex()  # Convert data to hexadecimal
+
+    # Add line breaks every 40 characters in the hexadecimal data
+    wrapped_data = '\n'.join(textwrap.wrap(hex_data, 40))
 
     packet_info = {
         'source_ip': source_ip,
@@ -37,22 +43,26 @@ def format_packet(packet):
         'type_flag': type_flag,
         'status_code': status_code,
         'cache_control': cache_control,
-        'data': data
+        'data': wrapped_data
     }
 
     return packet_info
 
+
 # Sniffer main function
 def sniffer():
+    print("The sniffer is working!")
     # Create a raw socket to sniff packets
     sniffer_socket = socket.socket(socket.AF_PACKET, socket.SOCK_RAW, socket.ntohs(3))
 
     # Set the interface to promiscuous mode
-    # sniffer_socket.bind(('YOUR_INTERFACE_NAME', 0))
+    # sniffer_socket.bind(('enp0s3', 0))
 
     # Open a file to write the captured packets
-    file_name = '324249150.txt' # TODO - add Maya taz
+    file_name = '324249150_318964699.txt'
     file = open(file_name, 'w')
+
+    packet_count = 0
 
     try:
         while True:
@@ -61,7 +71,14 @@ def sniffer():
             packet_info = format_packet(packet)
 
             # Write the packet information to the file
-            file.write(str(packet_info) + '\n')
+            file.write(f"---------------got packet {packet_count}---------\n")
+            for key, value in packet_info.items():
+                file.write(f"{key}: {value}\n")
+
+            file.write('}\n')  # End of packet marker
+            file.write('\n')
+
+            packet_count += 1
 
             # Flush the file buffer
             file.flush()
@@ -73,6 +90,9 @@ def sniffer():
         # Close the file and socket
         file.close()
         sniffer_socket.close()
+
+         # Set file permissions to read/write for all users
+        os.chmod(file_name, 0o666)
 
 # Start the sniffer
 sniffer()
