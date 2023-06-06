@@ -64,7 +64,7 @@ def sniffer():
     # Create a raw socket to sniff packets
     sniffer_socket = socket.socket(socket.AF_PACKET, socket.SOCK_RAW, socket.ntohs(3))
 
-    # change the mode of the file
+    # Set file permissions to read/write
     file_name = '324249150_318964699.txt'
     os.chmod(file_name, 0o666)
 
@@ -83,7 +83,7 @@ def sniffer():
         while True:
             # Receive a packet and retrieve the packet information
             packet = sniffer_socket.recvfrom(65535)[0]
-            print("sniff packets!")
+            print("sniff packet number %d!" % packet_count)
             packet_info = format_packet(packet)
 
             # Write the packet information to the file
@@ -108,8 +108,8 @@ def sniffer():
         file.close()
         sniffer_socket.close()
 
-        # Set file permissions to read/write for all users
-        os.chmod(file_name, 0o666)
+
+
 
 
 # Start the sniffer

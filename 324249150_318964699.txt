@@ -1,106 +1,106 @@
 ------got packet 0------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
-source_port: 54924
+source_port: 55910
 dest_port: 9999
-timestamp: 1686056472.785338
+timestamp: 1686059072.66611
 total_length: 74
 cache_flag: 0
 steps_flag: 0
 type_flag: 0
 status_code: 2
 cache_control: 255
-data: 0204ffd70402080abf8c10940000000001030307
+data: 0204ffd70402080abfb3bc5d0000000001030307
 }
 
 ------got packet 1------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
-source_port: 54924
+source_port: 55910
 dest_port: 9999
-timestamp: 1686056472.785514
+timestamp: 1686059072.666237
 total_length: 74
 cache_flag: 0
 steps_flag: 0
 type_flag: 0
 status_code: 2
 cache_control: 255
-data: 0204ffd70402080abf8c10940000000001030307
+data: 0204ffd70402080abfb3bc5d0000000001030307
 }
 
 ------got packet 2------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
 source_port: 9999
-dest_port: 54924
-timestamp: 1686056472.785567
+dest_port: 55910
+timestamp: 1686059072.666263
 total_length: 74
 cache_flag: 1
 steps_flag: 0
 type_flag: 0
 status_code: 2
 cache_control: 255
-data: 0204ffd70402080abf8c1094bf8c109401030307
+data: 0204ffd70402080abfb3bc5dbfb3bc5d01030307
 }
 
 ------got packet 3------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
 source_port: 9999
-dest_port: 54924
-timestamp: 1686056472.7856
+dest_port: 55910
+timestamp: 1686059072.666286
 total_length: 74
 cache_flag: 1
 steps_flag: 0
 type_flag: 0
 status_code: 2
 cache_control: 255
-data: 0204ffd70402080abf8c1094bf8c109401030307
+data: 0204ffd70402080abfb3bc5dbfb3bc5d01030307
 }
 
 ------got packet 4------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
-source_port: 54924
+source_port: 55910
 dest_port: 9999
-timestamp: 1686056472.78563
+timestamp: 1686059072.666303
 total_length: 66
 cache_flag: 1
 steps_flag: 0
 type_flag: 0
 status_code: 0
 cache_control: 2
-data: 0101080abf8c1094bf8c1094
+data: 0101080abfb3bc5dbfb3bc5d
 }
 
 ------got packet 5------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
-source_port: 54924
+source_port: 55910
 dest_port: 9999
-timestamp: 1686056472.785663
+timestamp: 1686059072.666319
 total_length: 66
 cache_flag: 1
 steps_flag: 0
 type_flag: 0
 status_code: 0
 cache_control: 2
-data: 0101080abf8c1094bf8c1094
+data: 0101080abfb3bc5dbfb3bc5d
 }
 
 ------got packet 6------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
-source_port: 54924
+source_port: 55910
 dest_port: 9999
-timestamp: 1686056472.785925
+timestamp: 1686059072.666523
 total_length: 753
 cache_flag: 1
 steps_flag: 1
 type_flag: 0
 status_code: 0
 cache_control: 2
-data: 0101080abf8c1094bf8c1094647f2e1802af1c00
+data: 0101080abfb3bc5dbfb3bc5d647f384002af1c00
 ffff000080049598020000000000008c0a63616c
 63756c61746f72948c0a42696e61727945787072
 9493942981947d94288c0c6c6566745f6f706572
@@ -140,16 +140,16 @@ ffff000080049598020000000000008c0a63616c
 ------got packet 7------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
-source_port: 54924
+source_port: 55910
 dest_port: 9999
-timestamp: 1686056472.786161
+timestamp: 1686059072.666755
 total_length: 753
 cache_flag: 1
 steps_flag: 1
 type_flag: 0
 status_code: 0
 cache_control: 2
-data: 0101080abf8c1094bf8c1094647f2e1802af1c00
+data: 0101080abfb3bc5dbfb3bc5d647f384002af1c00
 ffff000080049598020000000000008c0a63616c
 63756c61746f72948c0a42696e61727945787072
 9493942981947d94288c0c6c6566745f6f706572
@@ -190,45 +190,45 @@ ffff000080049598020000000000008c0a63616c
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
 source_port: 9999
-dest_port: 54924
-timestamp: 1686056472.786348
+dest_port: 55910
+timestamp: 1686059072.666903
 total_length: 66
 cache_flag: 1
 steps_flag: 0
 type_flag: 0
 status_code: 0
 cache_control: 1
-data: 0101080abf8c1094bf8c1094
+data: 0101080abfb3bc5dbfb3bc5d
 }
 
 ------got packet 9------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
 source_port: 9999
-dest_port: 54924
-timestamp: 1686056472.786377
+dest_port: 55910
+timestamp: 1686059072.666926
 total_length: 66
 cache_flag: 1
 steps_flag: 0
 type_flag: 0
 status_code: 0
 cache_control: 1
-data: 0101080abf8c1094bf8c1094
+data: 0101080abfb3bc5dbfb3bc5d
 }
 
 ------got packet 10------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
 source_port: 9999
-dest_port: 54924
-timestamp: 1686056472.786615
+dest_port: 55910
+timestamp: 1686059072.667157
 total_length: 630
 cache_flag: 1
 steps_flag: 1
 type_flag: 0
 status_code: 0
 cache_control: 2
-data: 0101080abf8c1095bf8c1094647f2e18023418c8
+data: 0101080abfb3bc5ebfb3bc5d647f3840023418c8
 ffff00008004951d0200000000000047bfd8cc84
 9113d59f5d94288c432873696e286d617828322c
 202833202a2034292c20352c202836202a202828
@@ -263,15 +263,15 @@ ffff00008004951d0200000000000047bfd8cc84
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
 source_port: 9999
-dest_port: 54924
-timestamp: 1686056472.786802
+dest_port: 55910
+timestamp: 1686059072.667351
 total_length: 630
 cache_flag: 1
 steps_flag: 1
 type_flag: 0
 status_code: 0
 cache_control: 2
-data: 0101080abf8c1095bf8c1094647f2e18023418c8
+data: 0101080abfb3bc5ebfb3bc5d647f3840023418c8
 ffff00008004951d0200000000000047bfd8cc84
 9113d59f5d94288c432873696e286d617828322c
 202833202a2034292c20352c202836202a202828
@@ -305,152 +305,1673 @@ ffff00008004951d0200000000000047bfd8cc84
 ------got packet 12------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
-source_port: 54924
+source_port: 55910
 dest_port: 9999
-timestamp: 1686056472.786999
+timestamp: 1686059072.667485
 total_length: 66
 cache_flag: 1
 steps_flag: 0
 type_flag: 0
 status_code: 0
 cache_control: 1
-data: 0101080abf8c1095bf8c1095
+data: 0101080abfb3bc5ebfb3bc5e
 }
 
 ------got packet 13------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
-source_port: 54924
+source_port: 55910
 dest_port: 9999
-timestamp: 1686056472.787035
+timestamp: 1686059072.667506
 total_length: 66
 cache_flag: 1
 steps_flag: 0
 type_flag: 0
 status_code: 0
 cache_control: 1
-data: 0101080abf8c1095bf8c1095
+data: 0101080abfb3bc5ebfb3bc5e
 }
 
 ------got packet 14------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
 source_port: 9999
-dest_port: 54924
-timestamp: 1686056472.787065
+dest_port: 55910
+timestamp: 1686059072.667528
 total_length: 66
 cache_flag: 1
 steps_flag: 0
 type_flag: 0
 status_code: 1
 cache_control: 2
-data: 0101080abf8c1095bf8c1095
+data: 0101080abfb3bc5ebfb3bc5e
 }
 
 ------got packet 15------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
 source_port: 9999
-dest_port: 54924
-timestamp: 1686056472.787096
+dest_port: 55910
+timestamp: 1686059072.667546
 total_length: 66
 cache_flag: 1
 steps_flag: 0
 type_flag: 0
 status_code: 1
 cache_control: 2
-data: 0101080abf8c1095bf8c1095
+data: 0101080abfb3bc5ebfb3bc5e
 }
 
 ------got packet 16------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
-source_port: 54924
+source_port: 55910
 dest_port: 9999
-timestamp: 1686056472.787301
+timestamp: 1686059072.667729
 total_length: 66
 cache_flag: 1
 steps_flag: 0
 type_flag: 0
 status_code: 1
 cache_control: 2
-data: 0101080abf8c1096bf8c1095
+data: 0101080abfb3bc5ebfb3bc5e
 }
 
 ------got packet 17------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
-source_port: 54924
+source_port: 55910
 dest_port: 9999
-timestamp: 1686056472.787389
+timestamp: 1686059072.667773
 total_length: 66
 cache_flag: 1
 steps_flag: 0
 type_flag: 0
 status_code: 1
 cache_control: 2
-data: 0101080abf8c1096bf8c1095
+data: 0101080abfb3bc5ebfb3bc5e
 }
 
 ------got packet 18------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
 source_port: 9999
-dest_port: 54924
-timestamp: 1686056472.787422
+dest_port: 55910
+timestamp: 1686059072.667796
 total_length: 66
 cache_flag: 1
 steps_flag: 0
 type_flag: 0
 status_code: 0
 cache_control: 2
-data: 0101080abf8c1096bf8c1096
+data: 0101080abfb3bc5ebfb3bc5e
 }
 
 ------got packet 19------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
 source_port: 9999
-dest_port: 54924
-timestamp: 1686056472.787456
+dest_port: 55910
+timestamp: 1686059072.667814
 total_length: 66
 cache_flag: 1
 steps_flag: 0
 type_flag: 0
 status_code: 0
 cache_control: 2
-data: 0101080abf8c1096bf8c1096
+data: 0101080abfb3bc5ebfb3bc5e
 }
 
 ------got packet 20------
-source_ip: 10.0.2.15
-dest_ip: 91.189.94.4
-source_port: 60295
-dest_port: 123
-timestamp: 1686056520.713506
-total_length: 90
+source_ip: 172.217.22.10
+dest_ip: 10.0.2.15
+source_port: 443
+dest_port: 53850
+timestamp: 1686059074.001699
+total_length: 122
 cache_flag: 0
 steps_flag: 0
-type_flag: 0
-status_code: 0
-cache_control: 0
-data: 0000000000000000000000000000000000000000
-0000000000000000e829acc82a80d73b
+type_flag: 1
+status_code: 3
+cache_control: 100
+data: 89c07ccd36e55c702af84328adef80d4b5106238
+8d4457a51ec575670bd6d2759e14bd3170b2728e
+f8f4b12bee311130797a94ac054bbf776d69e8e8
+97fb73b9436ff520
 }
 
 ------got packet 21------
-source_ip: 91.189.94.4
+source_ip: 10.0.2.15
+dest_ip: 172.217.22.10
+source_port: 53850
+dest_port: 443
+timestamp: 1686059074.003413
+total_length: 75
+cache_flag: 1
+steps_flag: 0
+type_flag: 0
+status_code: 2
+cache_control: 225
+data: 9f7a15b4af62721632a61dcbceb7d4e2472bb764
+0a
+}
+
+------got packet 22------
+source_ip: 10.0.2.15
+dest_ip: 172.217.22.99
+source_port: 37846
+dest_port: 443
+timestamp: 1686059081.552132
+total_length: 372
+cache_flag: 1
+steps_flag: 0
+type_flag: 1
+status_code: 1
+cache_control: 8
+data: 79e9f25fcda566a9959b48a9cfd092b759b010c2
+1ccc0b43b00de0cd4f3d02f37c46608055f2aebc
+c2280d0fa7a1ee3e4d1d557c7f65b35017b85609
+8c4a582e999087bbb1bc8c143307117a9a36e396
+d06d268c1ac8bf2af75b19de3d5925d64af6ec8d
+46ba9c53ed2d5762773d4dac006f2ff78dc596bf
+db4e5a6f6180542e7744836d4d448aa7a874853b
+5f779ce4561c7586aae012e6c7edd50dcc126f6b
+712bf1c34d82124da514762fe649c019bd9cedab
+c00e6f6466b9853fb2f0819c0c54184320e1d81d
+018255fc77465458787a335053489c6f45ea7423
+1fa9092e70208b6daf3c612e3f74b522040c1155
+a0d4b524c67d99affbd73bba2fc8cd28b4640153
+b5a074247f0b3efd4269275a1d26a8659b237e48
+2ceb73648bd8b7fef037b33ce52524b3a1de558f
+8aa399699717530c2a33a7f1d858aaa32ecb
+}
+
+------got packet 23------
+source_ip: 172.217.22.99
 dest_ip: 10.0.2.15
-source_port: 123
-dest_port: 60295
-timestamp: 1686056520.781636
-total_length: 90
+source_port: 443
+dest_port: 37846
+timestamp: 1686059081.556902
+total_length: 69
+cache_flag: 1
+steps_flag: 1
+type_flag: 1
+status_code: 1
+cache_control: 87
+data: a34d590cabb4adcb76a436fdedb9f4
+}
+
+------got packet 24------
+source_ip: 10.0.2.15
+dest_ip: 172.217.22.99
+source_port: 37846
+dest_port: 443
+timestamp: 1686059081.589701
+total_length: 74
+cache_flag: 1
+steps_flag: 0
+type_flag: 1
+status_code: 1
+cache_control: 8
+data: db5994a4cd62a2fa674218f66a6009dbf4fdeefa
+}
+
+------got packet 25------
+source_ip: 172.217.22.99
+dest_ip: 10.0.2.15
+source_port: 443
+dest_port: 37846
+timestamp: 1686059081.594227
+total_length: 64
+cache_flag: 0
+steps_flag: 1
+type_flag: 0
+status_code: 2
+cache_control: 95
+data: 90f9831e7dda8e6d5109
+}
+
+------got packet 26------
+source_ip: 10.0.2.15
+dest_ip: 172.217.22.99
+source_port: 37846
+dest_port: 443
+timestamp: 1686059081.594915
+total_length: 75
+cache_flag: 1
+steps_flag: 0
+type_flag: 1
+status_code: 1
+cache_control: 8
+data: 600b316de30eeac39f2914868237f2786eeb1abf
+b6
+}
+
+------got packet 27------
+source_ip: 172.217.22.99
+dest_ip: 10.0.2.15
+source_port: 443
+dest_port: 37846
+timestamp: 1686059081.611868
+total_length: 181
 cache_flag: 0
 steps_flag: 0
 type_flag: 0
 status_code: 0
-cache_control: 2
-data: 5ec69f0ae829a9abf748cfcee829acc82a80d73b
-e829acc8bc0cd2d7e829acc8bc0ec4f0
+cache_control: 176
+data: 93433b693f904ed36009a36f605e202facb32d00
+006b02bef23621c2d7cae561bbdaf9703a3fd453
+31a95dbf5ba363e446b8e025202edb1cd4bcdcd4
+f57bd4d96eb8e6a7ad69ce2a2f65bc7ca2a1bac1
+8fd35aa4c22de1d170c42fe9d22b06cd511f1792
+c8b2ffdfa8db000e01f5f18b9a043a5eda3c2319
+eec8fbe3ccad66
+}
+
+------got packet 28------
+source_ip: 172.217.22.99
+dest_ip: 10.0.2.15
+source_port: 443
+dest_port: 37846
+timestamp: 1686059081.612292
+total_length: 64
+cache_flag: 1
+steps_flag: 0
+type_flag: 0
+status_code: 0
+cache_control: 107
+data: 664d0241d2afddf1ef61
+}
+
+------got packet 29------
+source_ip: 10.0.2.15
+dest_ip: 172.217.22.99
+source_port: 37846
+dest_port: 443
+timestamp: 1686059081.612739
+total_length: 79
+cache_flag: 1
+steps_flag: 0
+type_flag: 1
+status_code: 1
+cache_control: 8
+data: 8561b3110ff3604d0c65b17d65fcd2e12419d140
+87e91c415f
+}
+
+------got packet 30------
+source_ip: 10.0.2.15
+dest_ip: 172.217.22.99
+source_port: 37846
+dest_port: 443
+timestamp: 1686059081.613073
+total_length: 75
+cache_flag: 1
+steps_flag: 0
+type_flag: 1
+status_code: 1
+cache_control: 8
+data: 47b59536a4c001fb3c8ef631b8a000863edfe742
+09
+}
+
+------got packet 31------
+source_ip: 172.217.22.99
+dest_ip: 10.0.2.15
+source_port: 443
+dest_port: 37846
+timestamp: 1686059081.643157
+total_length: 66
+cache_flag: 0
+steps_flag: 1
+type_flag: 1
+status_code: 0
+cache_control: 11
+data: f88d869798762e73dfe10a4f
+}
+
+------got packet 32------
+source_ip: 10.0.2.15
+dest_ip: 172.217.22.99
+source_port: 37846
+dest_port: 443
+timestamp: 1686059081.830391
+total_length: 144
+cache_flag: 1
+steps_flag: 0
+type_flag: 1
+status_code: 1
+cache_control: 8
+data: c489eb4a2d46a96e54dc1767d9fb61418c906a1f
+0c916e4a38f84a0f97f2e5a327eb01d56976fd3e
+6b5f13a1c828359da20cf72f1dc0dda9ee7138a1
+e34bae86d981f6b494dd274b0c4211c38b119a01
+a88dd52e9dbc726dd0db
+}
+
+------got packet 33------
+source_ip: 172.217.22.99
+dest_ip: 10.0.2.15
+source_port: 443
+dest_port: 37846
+timestamp: 1686059081.83517
+total_length: 69
+cache_flag: 0
+steps_flag: 0
+type_flag: 1
+status_code: 1
+cache_control: 189
+data: c712ea5ab0005f54cb21fd57ed78e7
+}
+
+------got packet 34------
+source_ip: 10.0.2.15
+dest_ip: 172.217.22.99
+source_port: 37846
+dest_port: 443
+timestamp: 1686059081.867533
+total_length: 74
+cache_flag: 1
+steps_flag: 0
+type_flag: 1
+status_code: 1
+cache_control: 8
+data: 10d6fdb0281d5cc49da666547c7681462c689ba5
+}
+
+------got packet 35------
+source_ip: 172.217.22.99
+dest_ip: 10.0.2.15
+source_port: 443
+dest_port: 37846
+timestamp: 1686059081.871905
+total_length: 64
+cache_flag: 0
+steps_flag: 0
+type_flag: 1
+status_code: 0
+cache_control: 174
+data: 8995c63be5e63853c93c
+}
+
+------got packet 36------
+source_ip: 10.0.2.15
+dest_ip: 172.217.22.99
+source_port: 37846
+dest_port: 443
+timestamp: 1686059081.872627
+total_length: 75
+cache_flag: 1
+steps_flag: 0
+type_flag: 1
+status_code: 1
+cache_control: 8
+data: b8acc8fcacdd1a3b8b3a7f7178c36112968b7ab6
+c4
+}
+
+------got packet 37------
+source_ip: 172.217.22.99
+dest_ip: 10.0.2.15
+source_port: 443
+dest_port: 37846
+timestamp: 1686059081.89202
+total_length: 128
+cache_flag: 1
+steps_flag: 0
+type_flag: 1
+status_code: 0
+cache_control: 184
+data: 67e464a99137d896f040b783079deab59baed219
+dcdf760f1e1d4aef227c5de75bc5c0c2a8a29540
+f7cf5055a5329b158fed3c7b62306ffc16afe770
+0099efc2a649eac364244423710f
+}
+
+------got packet 38------
+source_ip: 172.217.22.99
+dest_ip: 10.0.2.15
+source_port: 443
+dest_port: 37846
+timestamp: 1686059081.893227
+total_length: 64
+cache_flag: 1
+steps_flag: 1
+type_flag: 0
+status_code: 0
+cache_control: 154
+data: 10d7e45c512cdea5ef24
+}
+
+------got packet 39------
+source_ip: 10.0.2.15
+dest_ip: 172.217.22.99
+source_port: 37846
+dest_port: 443
+timestamp: 1686059081.893339
+total_length: 79
+cache_flag: 1
+steps_flag: 0
+type_flag: 1
+status_code: 1
+cache_control: 8
+data: 9ccddb3f29bfae97e840eb31ec55aae728ef4cd8
+620820e994
+}
+
+------got packet 40------
+source_ip: 10.0.2.15
+dest_ip: 172.217.22.99
+source_port: 37846
+dest_port: 443
+timestamp: 1686059081.893427
+total_length: 75
+cache_flag: 1
+steps_flag: 0
+type_flag: 1
+status_code: 1
+cache_control: 8
+data: 88bbcf811ec34cc78b8ab387818f29f27dee9a00
+32
+}
+
+------got packet 41------
+source_ip: 172.217.22.99
+dest_ip: 10.0.2.15
+source_port: 443
+dest_port: 37846
+timestamp: 1686059081.923549
+total_length: 66
+cache_flag: 0
+steps_flag: 0
+type_flag: 0
+status_code: 2
+cache_control: 17
+data: 72804c30650d6ab96a0c3e6b
+}
+
+------got packet 42------
+source_ip: 172.217.22.10
+dest_ip: 10.0.2.15
+source_port: 443
+dest_port: 53850
+timestamp: 1686059084.572533
+total_length: 121
+cache_flag: 0
+steps_flag: 0
+type_flag: 1
+status_code: 2
+cache_control: 43
+data: 9c1dc7e9a852ddc2591b86e93b9aa563716ac524
+7d724df875d8324873ede2f7387157b5c0f5fd7e
+fa27c18a024a083fb5c5fc641510bc299ab4b069
+8e2c7ddb40de40
+}
+
+------got packet 43------
+source_ip: 10.0.2.15
+dest_ip: 172.217.22.10
+source_port: 53850
+dest_port: 443
+timestamp: 1686059084.58176
+total_length: 75
+cache_flag: 1
+steps_flag: 0
+type_flag: 0
+status_code: 2
+cache_control: 225
+data: b39b212a6835bceb99a28ad653b1e0935b0f0233
+3d
+}
+
+------got packet 44------
+source_ip: 10.0.2.15
+dest_ip: 172.217.22.99
+source_port: 37846
+dest_port: 443
+timestamp: 1686059090.85242
+total_length: 143
+cache_flag: 1
+steps_flag: 0
+type_flag: 1
+status_code: 1
+cache_control: 8
+data: 8620045cb6c4fc2c063d2a59304ab5711312890f
+b71fe50c0023fa162deb83c5017136405e923384
+c9bdbfe470e8f905da49768ca262da50e9589a91
+ec086dbd79f1f6a09cadea65e47aced225fa6b4a
+f3bbf17ab7c4a49856
+}
+
+------got packet 45------
+source_ip: 172.217.22.99
+dest_ip: 10.0.2.15
+source_port: 443
+dest_port: 37846
+timestamp: 1686059090.857595
+total_length: 69
+cache_flag: 1
+steps_flag: 0
+type_flag: 0
+status_code: 3
+cache_control: 83
+data: 9ef79f882ef6dae3023fd5e537d74b
+}
+
+------got packet 46------
+source_ip: 10.0.2.15
+dest_ip: 172.217.22.99
+source_port: 37846
+dest_port: 443
+timestamp: 1686059090.891918
+total_length: 74
+cache_flag: 1
+steps_flag: 0
+type_flag: 1
+status_code: 1
+cache_control: 8
+data: bee429aca5cca34108542363dca35d6b517e46ab
+}
+
+------got packet 47------
+source_ip: 172.217.22.99
+dest_ip: 10.0.2.15
+source_port: 443
+dest_port: 37846
+timestamp: 1686059090.893821
+total_length: 64
+cache_flag: 0
+steps_flag: 0
+type_flag: 1
+status_code: 3
+cache_control: 114
+data: e9974a678048fd026862
+}
+
+------got packet 48------
+source_ip: 10.0.2.15
+dest_ip: 172.217.22.99
+source_port: 37846
+dest_port: 443
+timestamp: 1686059090.894112
+total_length: 75
+cache_flag: 1
+steps_flag: 0
+type_flag: 1
+status_code: 1
+cache_control: 8
+data: 3c9b581e5abc397d05f03a3ef72fc32e8eb9071a
+23
+}
+
+------got packet 49------
+source_ip: 172.217.22.99
+dest_ip: 10.0.2.15
+source_port: 443
+dest_port: 37846
+timestamp: 1686059090.911503
+total_length: 181
+cache_flag: 1
+steps_flag: 0
+type_flag: 0
+status_code: 3
+cache_control: 103
+data: df9dfa9cfd6569e959c624aca7d84057a36727af
+d5816ac1614c16bcffa1b579a303af084965e8ef
+c8c92b3bb6caa0bf0926f7925d91b89a2beac03f
+9e971bf04d127d535f768296217a28adb620236a
+d675cd97b08c20c513f9bfb05f0c11df26288fe4
+28c2bc60c47e79b29c7711fec92d6f8e58337ab1
+35c4cc5d11e003
+}
+
+------got packet 50------
+source_ip: 172.217.22.99
+dest_ip: 10.0.2.15
+source_port: 443
+dest_port: 37846
+timestamp: 1686059090.911723
+total_length: 64
+cache_flag: 0
+steps_flag: 0
+type_flag: 0
+status_code: 0
+cache_control: 122
+data: bbe767877532952d8d15
+}
+
+------got packet 51------
+source_ip: 10.0.2.15
+dest_ip: 172.217.22.99
+source_port: 37846
+dest_port: 443
+timestamp: 1686059090.912042
+total_length: 79
+cache_flag: 1
+steps_flag: 0
+type_flag: 1
+status_code: 1
+cache_control: 8
+data: 679177b83ef2e42d87ed330c42563a2146edff17
+d42248498a
+}
+
+------got packet 52------
+source_ip: 10.0.2.15
+dest_ip: 172.217.22.99
+source_port: 37846
+dest_port: 443
+timestamp: 1686059090.912155
+total_length: 75
+cache_flag: 1
+steps_flag: 0
+type_flag: 1
+status_code: 1
+cache_control: 8
+data: 124b1e2973de708e8a320fe88d67accc23747c27
+3e
+}
+
+------got packet 53------
+source_ip: 172.217.22.99
+dest_ip: 10.0.2.15
+source_port: 443
+dest_port: 37846
+timestamp: 1686059090.942429
+total_length: 66
+cache_flag: 1
+steps_flag: 0
+type_flag: 1
+status_code: 1
+cache_control: 126
+data: 056f387f7846ccf5b9ced911
+}
+
+------got packet 54------
+source_ip: 10.0.2.15
+dest_ip: 172.217.22.46
+source_port: 57256
+dest_port: 443
+timestamp: 1686059090.977339
+total_length: 54
+cache_flag: 1
+steps_flag: 0
+type_flag: 0
+status_code: 0
+cache_control: 245
+data: 
+}
+
+------got packet 55------
+source_ip: 172.217.22.46
+dest_ip: 10.0.2.15
+source_port: 443
+dest_port: 57256
+timestamp: 1686059090.97762
+total_length: 60
+cache_flag: 1
+steps_flag: 0
+type_flag: 0
+status_code: 0
+cache_control: 255
+data: 000000000000
+}
+
+------got packet 56------
+source_ip: 10.0.2.15
+dest_ip: 74.125.71.188
+source_port: 47912
+dest_port: 5228
+timestamp: 1686059093.021142
+total_length: 54
+cache_flag: 1
+steps_flag: 0
+type_flag: 0
+status_code: 0
+cache_control: 245
+data: 
+}
+
+------got packet 57------
+source_ip: 74.125.71.188
+dest_ip: 10.0.2.15
+source_port: 5228
+dest_port: 47912
+timestamp: 1686059093.0214
+total_length: 60
+cache_flag: 1
+steps_flag: 0
+type_flag: 0
+status_code: 0
+cache_control: 255
+data: 000000000000
+}
+
+------got packet 58------
+source_ip: 172.217.22.10
+dest_ip: 10.0.2.15
+source_port: 443
+dest_port: 53850
+timestamp: 1686059094.473661
+total_length: 122
+cache_flag: 0
+steps_flag: 0
+type_flag: 1
+status_code: 0
+cache_control: 159
+data: 8bddae2d31e6b60bab838e44a57d4bb2630fdbc3
+90fb54d1ea1ad5e01b7244520bcb32eaede673e3
+6122dd2a8596789cb3597c53d4cfae00d793aa87
+d99f7b84adc78cdd
+}
+
+------got packet 59------
+source_ip: 172.217.22.10
+dest_ip: 10.0.2.15
+source_port: 443
+dest_port: 53850
+timestamp: 1686059094.47384
+total_length: 66
+cache_flag: 0
+steps_flag: 0
+type_flag: 1
+status_code: 2
+cache_control: 33
+data: 8377d1d0e84f598d71652eaf
+}
+
+------got packet 60------
+source_ip: 10.0.2.15
+dest_ip: 172.217.22.10
+source_port: 53850
+dest_port: 443
+timestamp: 1686059094.474933
+total_length: 75
+cache_flag: 1
+steps_flag: 0
+type_flag: 0
+status_code: 2
+cache_control: 225
+data: 7cc5382f34b3b92e01565f9297cff4a05d9e6be5
+79
+}
+
+------got packet 61------
+source_ip: 127.0.0.1
+dest_ip: 127.0.0.53
+source_port: 8007
+dest_port: 53
+timestamp: 1686059094.477149
+total_length: 91
+cache_flag: 0
+steps_flag: 0
+type_flag: 0
+status_code: 1
+cache_control: 0
+data: 0b7369676e616c65722d706108636c69656e7473
+3606676f6f676c6503636f6d0000010001
+}
+
+------got packet 62------
+source_ip: 127.0.0.1
+dest_ip: 127.0.0.53
+source_port: 8007
+dest_port: 53
+timestamp: 1686059094.47725
+total_length: 91
+cache_flag: 0
+steps_flag: 0
+type_flag: 0
+status_code: 1
+cache_control: 0
+data: 0b7369676e616c65722d706108636c69656e7473
+3606676f6f676c6503636f6d0000010001
+}
+
+------got packet 63------
+source_ip: 127.0.0.1
+dest_ip: 127.0.0.53
+source_port: 22207
+dest_port: 53
+timestamp: 1686059094.477289
+total_length: 91
+cache_flag: 0
+steps_flag: 0
+type_flag: 0
+status_code: 1
+cache_control: 0
+data: 0b7369676e616c65722d706108636c69656e7473
+3606676f6f676c6503636f6d0000410001
+}
+
+------got packet 64------
+source_ip: 127.0.0.1
+dest_ip: 127.0.0.53
+source_port: 22207
+dest_port: 53
+timestamp: 1686059094.477446
+total_length: 91
+cache_flag: 0
+steps_flag: 0
+type_flag: 0
+status_code: 1
+cache_control: 0
+data: 0b7369676e616c65722d706108636c69656e7473
+3606676f6f676c6503636f6d0000410001
+}
+
+------got packet 65------
+source_ip: 10.0.2.15
+dest_ip: 192.168.14.1
+source_port: 49381
+dest_port: 53
+timestamp: 1686059094.477498
+total_length: 102
+cache_flag: 0
+steps_flag: 0
+type_flag: 0
+status_code: 1
+cache_control: 0
+data: 0b7369676e616c65722d706108636c69656e7473
+3606676f6f676c6503636f6d0000010001000029
+05c0000000000000
+}
+
+------got packet 66------
+source_ip: 10.0.2.15
+dest_ip: 192.168.14.1
+source_port: 43690
+dest_port: 53
+timestamp: 1686059094.477549
+total_length: 102
+cache_flag: 0
+steps_flag: 0
+type_flag: 0
+status_code: 1
+cache_control: 0
+data: 0b7369676e616c65722d706108636c69656e7473
+3606676f6f676c6503636f6d0000410001000029
+05c0000000000000
+}
+
+------got packet 67------
+source_ip: 192.168.14.1
+dest_ip: 10.0.2.15
+source_port: 53
+dest_port: 49381
+timestamp: 1686059094.483768
+total_length: 118
+cache_flag: 0
+steps_flag: 0
+type_flag: 0
+status_code: 1
+cache_control: 0
+data: 0b7369676e616c65722d706108636c69656e7473
+3606676f6f676c6503636f6d0000010001c00c00
+0100010000004700048efb8eca00002904d00000
+00000000
+}
+
+------got packet 68------
+source_ip: 192.168.14.1
+dest_ip: 10.0.2.15
+source_port: 53
+dest_port: 43690
+timestamp: 1686059094.483937
+total_length: 162
+cache_flag: 0
+steps_flag: 0
+type_flag: 0
+status_code: 1
+cache_control: 0
+data: 0b7369676e616c65722d706108636c69656e7473
+3606676f6f676c6503636f6d000041000106676f
+6f676c6503636f6d000006000100000028002603
+6e7331c03109646e732d61646d696ec031200e8b
+1c0000038400000384000007080000003c000029
+04d0000000000000
+}
+
+------got packet 69------
+source_ip: 127.0.0.53
+dest_ip: 127.0.0.1
+source_port: 53
+dest_port: 8007
+timestamp: 1686059094.484017
+total_length: 107
+cache_flag: 0
+steps_flag: 0
+type_flag: 0
+status_code: 1
+cache_control: 0
+data: 0b7369676e616c65722d706108636c69656e7473
+3606676f6f676c6503636f6d0000010001c00c00
+0100010000004700048efb8eca
+}
+
+------got packet 70------
+source_ip: 127.0.0.53
+dest_ip: 127.0.0.1
+source_port: 53
+dest_port: 8007
+timestamp: 1686059094.484082
+total_length: 107
+cache_flag: 0
+steps_flag: 0
+type_flag: 0
+status_code: 1
+cache_control: 0
+data: 0b7369676e616c65722d706108636c69656e7473
+3606676f6f676c6503636f6d0000010001c00c00
+0100010000004700048efb8eca
+}
+
+------got packet 71------
+source_ip: 127.0.0.53
+dest_ip: 127.0.0.1
+source_port: 53
+dest_port: 22207
+timestamp: 1686059094.484172
+total_length: 141
+cache_flag: 0
+steps_flag: 0
+type_flag: 0
+status_code: 1
+cache_control: 0
+data: 0b7369676e616c65722d706108636c69656e7473
+3606676f6f676c6503636f6d0000410001c02100
+060001000000280026036e7331c02109646e732d
+61646d696ec021200e8b1c000003840000038400
+0007080000003c
+}
+
+------got packet 72------
+source_ip: 127.0.0.53
+dest_ip: 127.0.0.1
+source_port: 53
+dest_port: 22207
+timestamp: 1686059094.48427
+total_length: 141
+cache_flag: 0
+steps_flag: 0
+type_flag: 0
+status_code: 1
+cache_control: 0
+data: 0b7369676e616c65722d706108636c69656e7473
+3606676f6f676c6503636f6d0000410001c02100
+060001000000280026036e7331c02109646e732d
+61646d696ec021200e8b1c000003840000038400
+0007080000003c
+}
+
+------got packet 73------
+source_ip: 10.0.2.15
+dest_ip: 142.251.142.202
+source_port: 46417
+dest_port: 443
+timestamp: 1686059094.484691
+total_length: 1292
+cache_flag: 0
+steps_flag: 1
+type_flag: 0
+status_code: 0
+cache_control: 57
+data: 8834004046003a8061cc177b3d0147ff9eec52fc
+ad278d4448d19cf68161e0c1ac91745823fb2e73
+58e1fddd74e367695b1ce0da13ea0120af3254ad
+f419c188ec5e3f66ab70a4a1b3ef294489e347ef
+7c1f36ee4c7755e0668ee79239e4460943971522
+a4dbec87646391c2406553495bebc6cdc8562f2b
+e597238e62f9d36fd911c8e1445b01e6e7dd63af
+1de571b86be24f9476df495e6863335488fe0f5c
+0204cf377bc621041d5145de8ac589f7f4cf2c4a
+7b256257712a4a267b5d998814b9876704ba775f
+95d913f6ce09683a87c39467dce8db76354ed942
+1ea1499edc5ed67f41e067556b498ac1ddc9a3db
+85f20536a3cc3b39730cb4e8a7237b3de44939d1
+e236ee1e4c0b05d4790e5f4a97c2af5c2d590760
+38b13bf6250f6e44f27f90142f7ef4bff026d75c
+23740e8206619f785c0cd8bd6429ddd1d2503977
+894b9a96e4f37c93504e194fadda39bb32539e54
+fac1b03701a7cd549d0677109e5a5aa66f789a3c
+7b505db4858c7d8d216c98740bf64d20e3cba79d
+a39bfb386b1c8383162f4998e2c7ac4ba049da46
+4ff45f6d82e21595131208d35880c32005407543
+e1a276672331520e9d9a06bd1ecd0d099c7f6ac2
+053f57965ca60202e258e205757d069021ea7f3a
+52307540b891d589eb628e4ad061a65cdf4f0751
+a86d7fa50eab9f4da3dec7d22cf9c6634b214dbc
+8676e4d26ddaf2982b2f7ed8cbe0a9245bde311f
+dcd06ea6ab023164d5a3e4e54011f495b64b8b31
+c204d29eec0ca6d50619343ee93319974ce77390
+ae058d5b57e892557e0e9bcf5b39d47952f2b1b7
+824574ebe7183d34572542407afb8162367ceaf2
+07bb7751a5d9e9e0d9b2fa8ea65ecd261004461e
+c2d22e59b4e1e90c9f24ab08d330df8e48483c5d
+878be40efa47f28abddef7d03aa28f463c771b57
+fe245d6574fea0f1ebadfce479d86cc3d20e0dde
+031c0637188ada1090ca6b47c7654014b9bc5eb1
+5f78501974f1f60f9bade4c35ca6e26cc922ebe5
+56dfd511b8f2866e358353fff257bd5fb00b89c1
+3c3625ce3720af90e9a3b037d60c547a75ba8f8a
+f305a471f949eb297fef9a7f24b3542d31c65fb3
+13af70a60fac63623e92c3cd32de4a374d65cc5d
+fd16ed685f3b6784f49a2637ef021d732e5ca5cb
+50662c31df7af5489b80bda4d3f9f6784f61d2cf
+367b386af2395a19195e0fadcc22649f4b76c442
+ba8e8e09ee912b92094a856a38c86014d9fd9f09
+d09fd66bb2ad17bebb330ca381ecd5a49b05e92d
+25a7b4ad4652aa8a21aa1943b6eab29857b83b53
+1e39163beefd6964ea3d4927f55821efad7e5905
+d221c21ba072ed563a651103178100cc6b150336
+6848bbbd640a9eeeb75a74f92066f76e0da2acab
+ac962e233c3965f8fde132d9d1e68114a2dc5606
+4b12d0de505b66b82265311c5e3b3ef67d819fa9
+5925b870b2b5443737dedbdc70382f520d9efd3a
+87c2b444e190f84a93151007796c5e940bd24104
+02061e77459914d98485fd180de07319a1918f42
+61e7e6d7c2f24b39acb7296f73deeedde71f6d3b
+d96d929ba8d45fc8bbde60bbe471d27d0945b28a
+5c128bdf030ef4b10483686c11dbab70e15c51c8
+4f2a474d265658cc8807f4c1ad026aa109b01b25
+5c771fa790256a62821bfcb1fd672dae82288a96
+58d61f6d286f83566dc27f292b32986026246629
+e9c47f3b4184145b5a8d38df076de90850b15d6a
+34816bc8b6dd1bb203c65f683f7d5f8a8858
+}
+
+------got packet 74------
+source_ip: 10.0.2.15
+dest_ip: 142.251.142.202
+source_port: 46417
+dest_port: 443
+timestamp: 1686059094.485045
+total_length: 119
+cache_flag: 0
+steps_flag: 1
+type_flag: 0
+status_code: 0
+cache_control: 57
+data: 883400403c456f9d031cdf7a86cbc83051e3c281
+33323c49fc94921d3e035b7730ff8b45f2c516dc
+1e55700e138cec3a13fb325efcba30b476600487
+b89d98e545
+}
+
+------got packet 75------
+source_ip: 10.0.2.15
+dest_ip: 142.251.142.202
+source_port: 46417
+dest_port: 443
+timestamp: 1686059094.485278
+total_length: 547
+cache_flag: 0
+steps_flag: 1
+type_flag: 0
+status_code: 0
+cache_control: 57
+data: 88340041e8799f7d91f52970f71515860d7cc68c
+0dc07fa0e7353dd8eec2f9a3ce59eb0ad39ffb18
+9953bc386593b7632d90881f241f01a54a104df7
+8df15aa882314b3aa4036557cdc38574b0c8e0af
+4bb9e8c5bcb0737ea1f8424f120fb645f4c084f1
+d0d0118203ba568bea833f0f577c299832e89f9a
+037f7cddcef90c857fdbb519a63af368dbe69ec3
+368e0d28a1ff45080a3b3bda1b29711aefa7d38b
+43d843c87a14d46a683bc34c69a52ecdccabf250
+ad7a24dd933a584b3c7218f14426f588d0c35f27
+f628ca19c0e44bd64c395323ddd859c4dbc3dccb
+317afb3d213f281c99c18bfc2e541a3ff2ac9786
+567d4b1a916e18a12dcb839298d0235f77610682
+4bb1557a4cd81cd647273045e8d76b3c09c03a9c
+a1ef2d92e10845a2e9732805f32be35caf78ddc3
+8a97511930d1f4b24f6e7ba51ee61653cf11b635
+fed36108bd88fc68d604f571872f945460095f7b
+2674407301c32569ff6b6a4d512a3b72ad09b876
+db5262a1c7e91feeb30ef3bb98285157a5c0e976
+8df1b22ee51b6e5b8ea2206bd187eedf04dd3ffd
+ccb09f93afffe067b684a275cea0b41226238017
+082934b5ee318e310d1ca9d87f435a8dbfc7d3ed
+f772e0268e7e4dbd390cf9f55db894e534a2c7aa
+0b58fc1c2e9681d55bef5ae8afb1a5c086c07acc
+4adf3d975fed55f2f006376be2
+}
+
+------got packet 76------
+source_ip: 142.251.142.202
+dest_ip: 10.0.2.15
+source_port: 443
+dest_port: 46417
+timestamp: 1686059094.51725
+total_length: 1292
+cache_flag: 0
+steps_flag: 0
+type_flag: 0
+status_code: 0
+cache_control: 8
+data: 8888340044d0e05b65b442d5656f4390e3acbe74
+67fc17a800283dd651d1561d7a6d87d00ddf5c68
+b6a8df755bac5d759522fe79c3d5c276079f2e99
+8f1cd1cd357a35f093d5261999fec8ca64be8422
+7610bcf459f4b9442cb55b3195018d53feb6d517
+44073839d855314edcb5cefe3f874c2a0e8d3f34
+dcf3db7f5d5b62250ef6e2bb2cbf8736531c7723
+b9c244585583414ade440f6d175f3cf02d5d50e5
+7e136bc2f6041a647cda8d4d78744de38b48ba47
+7c6e76998f35a4c19635d85e25ed9b3096f57646
+9f6f91097ccbb26db3911364e58fe9ec6085508e
+a004621d27790fc967e9a504605f4f7eeee1fe62
+635599bf089df7064147bccc8e92d27324984988
+198eca486463dad6181fb19d4b2570e52a901ed8
+c54b66080cadf20ceb731ed2b6ee7c9e4528c48b
+39396d2f72c1e8366e74ebafe4c4f11dd0a62c3f
+8512a341e0dcc2ccb5d207b6e5efa50c4f932a74
+5de194e46c0ff9d47c73b449a5785bcd77a63d93
+532d4ae61d1ef3bae7e14785d6c1612df845441d
+e4441336b52ebe618501fbc4d123cc3003e8577a
+24a4633f02224c195d06b2ce6c07946df6b89485
+e46e23ab7370f1a3df0907bffbc5873e4db8d629
+a6e0ebfa406ede30cab8571dffcfbd74271070eb
+2d57dc6fb0e11a1577c20ebf411919bb8b7cbe7d
+10415d55fc711b1c65bea2be55406450123fa5a9
+accd96902acfb85364fb750f6fa2ee66f64f76d1
+3bf8c5a8958cf12e0f066be315164d0017b8d30c
+c3493329a36aec9d10b870aee9105417ac10bd3a
+ba1c2d29a2d99c00a9fae275cea8fb727ad99d41
+6db1971e0326828cc8e0d3556d0f1d345cc890f0
+0525413733f79ab5a3c1dc8281d291a0a7b996d5
+8bda8eeb695838e31c8f8802952e18a88ab52c0f
+d8d8a21321af124810bb7c34d4e6ccfc63b1ac41
+707e12eb45e11f9bdcba75f23256065cea22eca5
+1aca0cf16bea5e43a405c2128fb1530a1d27a755
+0a79b57f3e62677de12e405142d26d4b85e5ee1d
+9ff1ec10ce8c69c86ba8a528adafb8bd9554144a
+be098624417095e898044fdea98e381e404715f3
+4b4118dff6a2ebd48da4d8e44e0c24058d46da0e
+31d08318455d1c2511b43faa55767b65a1370ec9
+54a6e5c9b0f14a2fa5ae2b93dc1a7488703b6ed9
+a7f400c42858b381aa17f31861272e47f447f061
+b0463e20172d38602a47ec4c71b6361b304fcaa9
+4c71e3cd2ddf3cc708d142167b830ec862e8332e
+389322ab744c911d4473402442e82fb3cd7a56f3
+db641c6241dcb939a52318cbee407d3cab36e8c5
+425c40fbe3d54588ad414d302c3bd6948a225388
+2963dca28cb92a242685a2901370ea9e5f1f1b32
+2e5397e27fc5422a59904f401b5b1665956f823e
+7bfb534ca886d821a4478d76edde0ab22e6a78fe
+aa220d0a58112df6093956901bc09c726566fa61
+ddf707e615272de8e2c624c59698852d2dba4b28
+8f97c9136884b5404efb48039f91304514e91150
+6c64180aa06ea540e5ae667ad5a18a96b794abd0
+457f26ede2dc252d18f3082ac95157651ebb7186
+7f2e59335ed615394fcfa290225e355cb48a3075
+cbc5f766ef48e8d6253eec6c981a7737acf94875
+f8bb1f67bfab610ca1067fcb236c8ffa73cc32fc
+89a97fde4e4262f177b6de328738cc597a7b5cde
+01c6a75be6700c2e525118e2db8eaed9eef8e942
+9e66a445d41786a376dc4467307e69b7997a918c
+cad0466d97a193fee61d932597a7f7acc1a7
+}
+
+------got packet 77------
+source_ip: 142.251.142.202
+dest_ip: 10.0.2.15
+source_port: 443
+dest_port: 46417
+timestamp: 1686059094.54881
+total_length: 1292
+cache_flag: 0
+steps_flag: 0
+type_flag: 0
+status_code: 0
+cache_control: 8
+data: 88883400439cd6c124d5f1e0d43feb5671adc4ce
+7c37c4c276bbbf15909474aa0d6fbe269f7f9b6f
+b6cd8ec5fddc68d579e6be9038234aa2e0f6c89b
+b9a816ca6ed260a00d9ddf5de79ccf89031e5013
+297a6b164e670fe6a63013bfd5bd693d5f34a80e
+894e0659137adbcdb1c40f75077fdefa0a01b337
+20646c59da0397fff8c54537743ed6ef2a3dc5ef
+5b9e449c96d4fd1b99f4ff218316a796a257d03e
+12eef8c07f766982966c5a5c385489ed3b22c6c3
+33d57bc604899342ec6387a0d8b8b44e39495aca
+c77a992570da71f97991d9767249050bbc8a9a25
+0335846842f939e5356af07a8e4a6bf57e35e2a4
+4df4d231b79fb115554f5a4d05171136915eac91
+182888ffd9bd7e8921143f9e2cde74fd18fd5286
+c0b36816fe8a5529ef92cd5ca473ffaacb679e3e
+e47107ab4ea03f6cedfc493188cec6ec6563b1fa
+73a24165ee16cc0ec7fcd2e2b5c8e1277a7873db
+969c7773e5fea0b82977c733bd4155f093da0245
+8292893be074b028ff1490b1d158f96ab67066d1
+52e96b13862dfcb804b047602dc5b36a9b8394d2
+60580dbcd07c204f2579e353e118b506a5d13c88
+c2c21a5e9b94e0e3777c06f0b25507b667e7bc15
+d44bda91c6a595aeb3d944d1ca40e2f3883425a2
+1a4f37dd4324c9feed15a3809f147a8d191b6823
+5d8b2390b314ae879eae352ac19821e95e14e4fb
+a84f0b607daccb7b0c0ae1cd616dc688d8eca385
+16b00f1bb3b99361512b83563b8cf079b2cec9dd
+7b5b83cf4030a058979d1078aafa2fdb0a8e5c3e
+3b13d3bcfc714ee1696a626803954504578e9620
+5e2d6fc90340eb6c39352628bc8234b5238b5f96
+e22a9aa1d5ca1cd43981ddf7b206d606f51e4d82
+0d7f8733f2b54b9e9be8f6b9eb105b41099343c7
+79f669f72bf7603bc2c461ce81350d79d2dd69df
+e87656b6ac5b13af6547034658894294ab93b66e
+b86bca46e545c103f3c1f5f477cb950b8cc8b835
+b6cf3aa01ff313007b52d8304a1122848cea0354
+b4471079336d7c87db2d9c19ead65800cfa192db
+575f12f0def6b36456a3e08ee0ec2cb1463193ed
+c93ca874fae8574d6cc42cbcb1acfb4a8fe12fae
+91dd77d0e991f56b1a0ff4f5820205ec4374ce6a
+54f45ffd3a0dacb34946feb1f9fab0d1fd4b15b6
+21b5b0d860823cb22392d927baee3cda1149e6db
+a7cbf6f8137cd300fa1b5014ba16e9e81f1f1d28
+d1f23a3731e209755bc629f32956e671eef32e67
+9ec435e5b3f8cd86107bb1c1bb76d6ebc453c56b
+edf73eb6acd86e682025c98e80619dbfa91f87f4
+3cb7a021e55a6b3385d8ef000000010008f97ae2
+286488883440e2ea5e4dd437a8fb1df4593aadfc
+9b4c0284d6d0f8fe01c5297d683ba9df26b4320a
+6b6a3cb8c606ee998a69ffe17b55e7b5273d5d06
+b7615e63608c54ea1259d2da9207be2e43a99b15
+300f9037a497622c614633e71f36e38b70b473cf
+62c3662243dc0c5e4a8654891e124a3738b7d3d7
+80277390577cc93de505234ddc70180113826002
+c14d95ac799094f89825e266851d2259b91d2c4f
+ddd2418cd95478632e347db41eb6022e76981a4b
+577e2c685d392c8400d586a43f159565d23b9f8d
+0e945e52d9b914fcaf06e8914df7c1b8ae77cbcf
+e61bd4227e8450bba61ec578324e39f6d903a8aa
+4af1e7cf24c03eea8450ab44def9003f15d39215
+1b62c619aa6e6d6df739e2ba272006a6c7c0f556
+0d308c3f318871d653d55716c3e107032ef2
+}
+
+------got packet 78------
+source_ip: 142.251.142.202
+dest_ip: 10.0.2.15
+source_port: 443
+dest_port: 46417
+timestamp: 1686059094.549704
+total_length: 849
+cache_flag: 1
+steps_flag: 0
+type_flag: 0
+status_code: 1
+cache_control: 196
+data: 3a9749bfd8085a99205ae2593c818620817c1f4d
+82b299930042ec0a20bd302455b98ecf400c7baa
+d996ef5b1257874507357b8916b81adb1372a1cf
+208520101372d4254a066a920600dcb4d7211f91
+ea41b1946e3d84a8a1bda776e48e9f8a9ee4b878
+30c7b994355c6fcd1f194c97bc267834dea6901e
+102653d53a73e402b249397bfc643ec7dc1723da
+203a1ea98cd1002f8033e31ed70198d6fefb2017
+fb8d7e012c6366915255273f388fe8d9fff70bb2
+78587680be56f18787a3c5de78bde7a1d537cd9b
+c15befb57916822bc25f7507ed7b78b38ea20691
+8e0f9b9f6723cb0bdc792053fc930c8aeec683c7
+a7e8d2a99aa25c230ff3784259d57fd57aee6614
+3e71b2643c03093876593e7c717b2200ed066154
+e6f554fffe7e3ce6de1467bcfc28da8d1db9c382
+95c5b73e730019456d679f9b943ced3ac7324787
+f5e8f9b1a369130be04fc352989138d0f65efc08
+4a6e3e58939d448be77d29ef823f6e1dee6c8282
+db8cd0cedd5d92bd9835ed87fa86acaf389af227
+43d2123804763439e79bf7eb3288a2cf635ecda0
+ac8ddd4a3237155058e4069e4a985a049223258a
+a22949320d1fe09c0790d8f0475c2bd1ca484c7d
+81b2c8e30a715d1815ad1835cab2dd3efca6d249
+9ca6d13abd27ab81cc1c6e2e035502b49e8bf6b2
+40aee00d432698b781a0710e2d09af6b191bf4e1
+c2f0c8e37292d4e81dc0c83e0bcf78f77175962a
+131a43c59d8a8a855151eb374c60795d5333060e
+ae3c8134d18cdb1c97ba3d07bccfee1584f5f32e
+ab543ad61c5d703840695b4a0dd0704caeae6e66
+3b455d95ad3fe047fa8cd7b62ecd43f3cf646aab
+32d4a0b02b0d528eecc05f512631275751f2a8b7
+1e511eb43227b416aba8432e893e50c706fa5f58
+93fb06942597f4e841c867daa1e0a090df411ebc
+f823f7a81d4cd6c24f56a9dc38640248882ca73c
+c9c5c9ec8f6274440767aece63df1dbfbeca418d
+b3f7236be595cf3d215215f780ff2170f4c5dbd6
+30f376bef7284eebf05cc906ec0102737ecd46a7
+8730ec4d6089128ad9397a5c5cb086e1eb6c4998
+3b84fde9c65355f8a320074a2d186b983b121a99
+a1be356d458501edfc4a0d5810c265
+}
+
+------got packet 79------
+source_ip: 142.251.142.202
+dest_ip: 10.0.2.15
+source_port: 443
+dest_port: 46417
+timestamp: 1686059094.550189
+total_length: 233
+cache_flag: 0
+steps_flag: 1
+type_flag: 0
+status_code: 2
+cache_control: 195
+data: cce3f34d499585d50a5b66ee37d5a3e89f3e4875
+bfecf8361ff3e42d688cc8a34c225633a20dd36c
+e3cba667c6c67e63dc4ae59fabff593c37bb11cb
+1eadce3747055a5ed25ee392f28bb0485166552a
+711766085e44757d2e486adb3365c834ac85f2f1
+57cfcf5d2bbb3a0e5b2b8c38d8e9c9072a0bd612
+bd25ff5e7c098a60d8d6188c16dc39cf05f15941
+1534474529e9aed61a79373421e2cc7285ad37a0
+a422de4d98b3e098abe312d2eb36675dd79a58
+}
+
+------got packet 80------
+source_ip: 142.251.142.202
+dest_ip: 10.0.2.15
+source_port: 443
+dest_port: 46417
+timestamp: 1686059094.550388
+total_length: 66
+cache_flag: 1
+steps_flag: 1
+type_flag: 0
+status_code: 1
+cache_control: 46
+data: d13a3d9369e968ed6571b8d6
+}
+
+------got packet 81------
+source_ip: 10.0.2.15
+dest_ip: 142.251.142.202
+source_port: 46417
+dest_port: 443
+timestamp: 1686059094.550434
+total_length: 120
+cache_flag: 0
+steps_flag: 1
+type_flag: 0
+status_code: 0
+cache_control: 249
+data: 883400403dc423de52d0d1e2875c17aa234d608e
+c831c36f8c4f053adbccae1bd40494c03f77f5e3
+b0cd3c9883c6d969e7da0fedd7c8825541e97cd6
+9a3f597fea61
+}
+
+------got packet 82------
+source_ip: 10.0.2.15
+dest_ip: 142.251.142.202
+source_port: 46417
+dest_port: 443
+timestamp: 1686059094.550524
+total_length: 73
+cache_flag: 0
+steps_flag: 0
+type_flag: 1
+status_code: 0
+cache_control: 136
+data: 29af9ccaf2fca6572759e953abb5e4825afa55
+}
+
+------got packet 83------
+source_ip: 142.251.142.202
+dest_ip: 10.0.2.15
+source_port: 443
+dest_port: 46417
+timestamp: 1686059094.554478
+total_length: 162
+cache_flag: 0
+steps_flag: 1
+type_flag: 1
+status_code: 1
+cache_control: 228
+data: 9067444b467b0d7b06ce2ce75de8ea43d9d2aaf3
+f676ac79670e1896ff1e6a8098716b59b3f19fbe
+6469ba8096ce15d56b5550f8669a4eea226bb929
+56aaa8456c54b6649e336d0265eeb921ea349252
+36728b6cc57bb2fa82f7ba49c9ecca5aa3e9916b
+0e529d45e55ca304
+}
+
+------got packet 84------
+source_ip: 10.0.2.15
+dest_ip: 142.251.142.202
+source_port: 46417
+dest_port: 443
+timestamp: 1686059094.554804
+total_length: 73
+cache_flag: 0
+steps_flag: 0
+type_flag: 1
+status_code: 0
+cache_control: 136
+data: c4b7cfea7aadb911ae6ac24d034108b27876c2
+}
+
+------got packet 85------
+source_ip: 142.251.142.202
+dest_ip: 10.0.2.15
+source_port: 443
+dest_port: 46417
+timestamp: 1686059094.554883
+total_length: 64
+cache_flag: 1
+steps_flag: 0
+type_flag: 1
+status_code: 2
+cache_control: 30
+data: 2881555cea141902f9dd
+}
+
+------got packet 86------
+source_ip: 10.0.2.15
+dest_ip: 142.251.142.202
+source_port: 46417
+dest_port: 443
+timestamp: 1686059094.587338
+total_length: 74
+cache_flag: 0
+steps_flag: 0
+type_flag: 1
+status_code: 0
+cache_control: 136
+data: a1f46ef7182614141d85f697b957941c0e397193
+}
+
+------got packet 87------
+source_ip: 142.251.142.202
+dest_ip: 10.0.2.15
+source_port: 443
+dest_port: 46417
+timestamp: 1686059094.687238
+total_length: 242
+cache_flag: 0
+steps_flag: 1
+type_flag: 1
+status_code: 2
+cache_control: 132
+data: 6d84baf85c25c822ab2eb8a75dd4c9d7dc1e3d8d
+abd0200a0bad34424ac19ad5d278a268aaeafe3b
+37e919a9f0e74339e5fab37220ef8dd754967584
+ac426325e2f9b523c8d09a8a80e4bb61188e24a2
+ecc9e42205e491009793c35b6f96f102bcbf37ba
+31b88df3ca17d80fe242a6961d60348b27169305
+df96b990437bb0d325da510ee19b1baa22bdf8cc
+d8352422be3097d728e63f0caa325657ecc0456d
+af7e3124c45ecf4c3bf38c97715a1998336ab38d
+49626ed793193acc
+}
+
+------got packet 88------
+source_ip: 10.0.2.15
+dest_ip: 142.251.142.202
+source_port: 46417
+dest_port: 443
+timestamp: 1686059094.687518
+total_length: 77
+cache_flag: 0
+steps_flag: 0
+type_flag: 1
+status_code: 0
+cache_control: 136
+data: 99285639e1c4662dfe3f64b9e048dab6b209aeea
+94dd9d
+}
+
+------got packet 89------
+source_ip: 10.0.2.15
+dest_ip: 172.217.22.10
+source_port: 53850
+dest_port: 443
+timestamp: 1686059094.687577
+total_length: 362
+cache_flag: 1
+steps_flag: 0
+type_flag: 0
+status_code: 2
+cache_control: 225
+data: 3f9d521737782f607991a47dff516895491ef907
+4bf055413f88f13ca8cd6424b051bebef9edad55
+7ea30d84e27c504f734dc889555830eb2034015a
+500782153cdcd9a54eba3caaac204c126f963e4e
+a9ee711cdb8df1de919892783b040f4a64213004
+137c3a28b6f4340849f31c77c9239ac2811788af
+911cab746c3a600e1a6b81cbd5b8c3762ebcb7a8
+b16a473c1c97a1768c237ebe3a737c6eae2415a1
+4899b5a2be33e1740833ee67076eec05a6cacd1d
+e43736d9bbe033af294eeb0797fec661f6c2bff3
+7e2649df4cfece30e2e5d5ee5b0163e82050f7c4
+9ff4e29369af4c2c6b7380237246d080bbb20876
+04475f7c38c81900709e6cc0b8a8dc7338addb24
+0490f132179e40b0597902de9eebe231e3ee2363
+0b4d7742a8c2fa49d93bc556fdfc14426245bd73
+70cf881b6a40e41d
+}
+
+------got packet 90------
+source_ip: 142.251.142.202
+dest_ip: 10.0.2.15
+source_port: 443
+dest_port: 46417
+timestamp: 1686059094.687713
+total_length: 63
+cache_flag: 1
+steps_flag: 0
+type_flag: 0
+status_code: 0
+cache_control: 67
+data: a617d8444637c83023
+}
+
+------got packet 91------
+source_ip: 142.251.142.202
+dest_ip: 10.0.2.15
+source_port: 443
+dest_port: 46417
+timestamp: 1686059094.688044
+total_length: 67
+cache_flag: 1
+steps_flag: 0
+type_flag: 1
+status_code: 0
+cache_control: 227
+data: 5d811d8673300ee25526e0d992
+}
+
+------got packet 92------
+source_ip: 172.217.22.10
+dest_ip: 10.0.2.15
+source_port: 443
+dest_port: 53850
+timestamp: 1686059094.689041
+total_length: 74
+cache_flag: 1
+steps_flag: 1
+type_flag: 0
+status_code: 0
+cache_control: 82
+data: 87b0e08c8551aed13c1c7523429ed99f318e366d
+}
+
+------got packet 93------
+source_ip: 10.0.2.15
+dest_ip: 172.217.22.10
+source_port: 53850
+dest_port: 443
+timestamp: 1686059094.699354
+total_length: 75
+cache_flag: 1
+steps_flag: 0
+type_flag: 0
+status_code: 2
+cache_control: 225
+data: 52d0e3ab4827c591496379a88371648fe13f4076
+a7
+}
+
+------got packet 94------
+source_ip: 10.0.2.15
+dest_ip: 142.251.142.202
+source_port: 46417
+dest_port: 443
+timestamp: 1686059094.714855
+total_length: 74
+cache_flag: 0
+steps_flag: 0
+type_flag: 1
+status_code: 0
+cache_control: 136
+data: e62a7101f1e01d60955cea633b74be0fc46bc071
+}
+
+------got packet 95------
+source_ip: 172.217.22.10
+dest_ip: 10.0.2.15
+source_port: 443
+dest_port: 53850
+timestamp: 1686059094.832872
+total_length: 138
+cache_flag: 0
+steps_flag: 0
+type_flag: 1
+status_code: 0
+cache_control: 180
+data: fca51786274adaf185b134b197954bb38db963b1
+4e060bace961b395199c52d2cc07ad0fe635e730
+584f9fab5074a1f645f51afef094b1b8e34257e0
+91cb6eb2d1d3dc46f15cab70552ba047c70af91d
+00fd967f
+}
+
+------got packet 96------
+source_ip: 10.0.2.15
+dest_ip: 172.217.22.10
+source_port: 53850
+dest_port: 443
+timestamp: 1686059094.83302
+total_length: 81
+cache_flag: 1
+steps_flag: 0
+type_flag: 0
+status_code: 2
+cache_control: 225
+data: 6ed575f0ca448fab124b32a80bd980439c88169c
+ff96f765b3f921
+}
+
+------got packet 97------
+source_ip: 172.217.22.10
+dest_ip: 10.0.2.15
+source_port: 443
+dest_port: 53850
+timestamp: 1686059094.840317
+total_length: 68
+cache_flag: 1
+steps_flag: 1
+type_flag: 1
+status_code: 2
+cache_control: 163
+data: 9aea0f33d1041bd381d13add2030
 }
 
