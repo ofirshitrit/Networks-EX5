@@ -11,17 +11,20 @@ def traceroute(dest):
     print('traceroute to %s' % dest)
 
     while True:
+        #  an IP packet is created with the destination the TTL.
+        # The ICMP() function creates an ICMP Echo Request packet.
         p = IP(dst=dest, ttl=ttl) / ICMP()
+        # The sr1() function sends the packet and waits for a single response packet, storing it in the reply variable.
         reply = sr1(p, verbose=0)
 
         if reply is None:
             print('no response')
             break
         elif reply[ICMP].type == 11 and reply[ICMP].code == 0:  # Time Exceeded
-            print('hop %d: %s' % (ttl, reply.src))
+            print('route %d: %s' % (ttl, reply.src))
             ttl += 1
         elif reply[ICMP].type == 0:  # Echo Reply
-            print('hop %d: %s (destination reached)' % (ttl, reply.src))
+            print('route %d: %s (destination reached)' % (ttl, reply.src))
             break
         else:
             print('unexpected reply')
