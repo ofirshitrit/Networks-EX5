@@ -8,7 +8,14 @@ def traceroute(dest):
     ttl = 1
     max_ttl = 30
 
-    print('traceroute to %s' % dest)
+    # Resolve the IP address of the destination
+    try:
+        dest_ip = socket.gethostbyname(dest)
+    except socket.gaierror:
+        print("Invalid Hostname.")
+        return
+
+    print('traceroute to %s (%s)' % (dest, dest_ip))
 
     while True:
         #  an IP packet is created with the destination the TTL.
@@ -21,7 +28,7 @@ def traceroute(dest):
             print('no response')
             break
         elif reply[ICMP].type == 11 and reply[ICMP].code == 0:  # Time Exceeded
-            print('route %d: %s' % (ttl, reply.src))
+            print('route %d: %s ' % (ttl, reply.src))
             ttl += 1
         elif reply[ICMP].type == 0:  # Echo Reply
             print('route %d: %s (destination reached)' % (ttl, reply.src))

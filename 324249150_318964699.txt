@@ -1,106 +1,106 @@
----------------got packet 0---------
+------got packet 0------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
-source_port: 56324
+source_port: 54924
 dest_port: 9999
-timestamp: 2023-06-05 10:07:09
+timestamp: 1686056472.785338
 total_length: 74
 cache_flag: 0
 steps_flag: 0
 type_flag: 0
 status_code: 2
 cache_control: 255
-data: 0204ffd70402080aa7aa9bc60000000001030307
+data: 0204ffd70402080abf8c10940000000001030307
 }
 
----------------got packet 1---------
+------got packet 1------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
-source_port: 56324
+source_port: 54924
 dest_port: 9999
-timestamp: 2023-06-05 10:07:09
+timestamp: 1686056472.785514
 total_length: 74
 cache_flag: 0
 steps_flag: 0
 type_flag: 0
 status_code: 2
 cache_control: 255
-data: 0204ffd70402080aa7aa9bc60000000001030307
+data: 0204ffd70402080abf8c10940000000001030307
 }
 
----------------got packet 2---------
+------got packet 2------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
 source_port: 9999
-dest_port: 56324
-timestamp: 2023-06-05 10:07:09
+dest_port: 54924
+timestamp: 1686056472.785567
 total_length: 74
 cache_flag: 1
 steps_flag: 0
 type_flag: 0
 status_code: 2
 cache_control: 255
-data: 0204ffd70402080aa7aa9bc6a7aa9bc601030307
+data: 0204ffd70402080abf8c1094bf8c109401030307
 }
 
----------------got packet 3---------
+------got packet 3------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
 source_port: 9999
-dest_port: 56324
-timestamp: 2023-06-05 10:07:09
+dest_port: 54924
+timestamp: 1686056472.7856
 total_length: 74
 cache_flag: 1
 steps_flag: 0
 type_flag: 0
 status_code: 2
 cache_control: 255
-data: 0204ffd70402080aa7aa9bc6a7aa9bc601030307
+data: 0204ffd70402080abf8c1094bf8c109401030307
 }
 
----------------got packet 4---------
+------got packet 4------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
-source_port: 56324
+source_port: 54924
 dest_port: 9999
-timestamp: 2023-06-05 10:07:09
+timestamp: 1686056472.78563
 total_length: 66
 cache_flag: 1
 steps_flag: 0
 type_flag: 0
 status_code: 0
 cache_control: 2
-data: 0101080aa7aa9bc6a7aa9bc6
+data: 0101080abf8c1094bf8c1094
 }
 
----------------got packet 5---------
+------got packet 5------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
-source_port: 56324
+source_port: 54924
 dest_port: 9999
-timestamp: 2023-06-05 10:07:09
+timestamp: 1686056472.785663
 total_length: 66
 cache_flag: 1
 steps_flag: 0
 type_flag: 0
 status_code: 0
 cache_control: 2
-data: 0101080aa7aa9bc6a7aa9bc6
+data: 0101080abf8c1094bf8c1094
 }
 
----------------got packet 6---------
+------got packet 6------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
-source_port: 56324
+source_port: 54924
 dest_port: 9999
-timestamp: 2023-06-05 10:07:09
+timestamp: 1686056472.785925
 total_length: 753
 cache_flag: 1
 steps_flag: 1
 type_flag: 0
 status_code: 0
 cache_control: 2
-data: 0101080aa7aa9bc7a7aa9bc6647d899d02af1c00
+data: 0101080abf8c1094bf8c1094647f2e1802af1c00
 ffff000080049598020000000000008c0a63616c
 63756c61746f72948c0a42696e61727945787072
 9493942981947d94288c0c6c6566745f6f706572
@@ -137,19 +137,19 @@ ffff000080049598020000000000008c0a63616c
 2d683968222981947d9468254b0d736275622e
 }
 
----------------got packet 7---------
+------got packet 7------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
-source_port: 56324
+source_port: 54924
 dest_port: 9999
-timestamp: 2023-06-05 10:07:09
+timestamp: 1686056472.786161
 total_length: 753
 cache_flag: 1
 steps_flag: 1
 type_flag: 0
 status_code: 0
 cache_control: 2
-data: 0101080aa7aa9bc7a7aa9bc6647d899d02af1c00
+data: 0101080abf8c1094bf8c1094647f2e1802af1c00
 ffff000080049598020000000000008c0a63616c
 63756c61746f72948c0a42696e61727945787072
 9493942981947d94288c0c6c6566745f6f706572
@@ -186,49 +186,49 @@ ffff000080049598020000000000008c0a63616c
 2d683968222981947d9468254b0d736275622e
 }
 
----------------got packet 8---------
+------got packet 8------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
 source_port: 9999
-dest_port: 56324
-timestamp: 2023-06-05 10:07:09
+dest_port: 54924
+timestamp: 1686056472.786348
 total_length: 66
 cache_flag: 1
 steps_flag: 0
 type_flag: 0
 status_code: 0
 cache_control: 1
-data: 0101080aa7aa9bc7a7aa9bc7
+data: 0101080abf8c1094bf8c1094
 }
 
----------------got packet 9---------
+------got packet 9------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
 source_port: 9999
-dest_port: 56324
-timestamp: 2023-06-05 10:07:09
+dest_port: 54924
+timestamp: 1686056472.786377
 total_length: 66
 cache_flag: 1
 steps_flag: 0
 type_flag: 0
 status_code: 0
 cache_control: 1
-data: 0101080aa7aa9bc7a7aa9bc7
+data: 0101080abf8c1094bf8c1094
 }
 
----------------got packet 10---------
+------got packet 10------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
 source_port: 9999
-dest_port: 56324
-timestamp: 2023-06-05 10:07:09
+dest_port: 54924
+timestamp: 1686056472.786615
 total_length: 630
 cache_flag: 1
 steps_flag: 1
 type_flag: 0
 status_code: 0
 cache_control: 2
-data: 0101080aa7aa9bc7a7aa9bc7647d899d023418c8
+data: 0101080abf8c1095bf8c1094647f2e18023418c8
 ffff00008004951d0200000000000047bfd8cc84
 9113d59f5d94288c432873696e286d617828322c
 202833202a2034292c20352c202836202a202828
@@ -259,19 +259,19 @@ ffff00008004951d0200000000000047bfd8cc84
 3737383234313337323036946586942e
 }
 
----------------got packet 11---------
+------got packet 11------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
 source_port: 9999
-dest_port: 56324
-timestamp: 2023-06-05 10:07:09
+dest_port: 54924
+timestamp: 1686056472.786802
 total_length: 630
 cache_flag: 1
 steps_flag: 1
 type_flag: 0
 status_code: 0
 cache_control: 2
-data: 0101080aa7aa9bc7a7aa9bc7647d899d023418c8
+data: 0101080abf8c1095bf8c1094647f2e18023418c8
 ffff00008004951d0200000000000047bfd8cc84
 9113d59f5d94288c432873696e286d617828322c
 202833202a2034292c20352c202836202a202828
@@ -302,327 +302,155 @@ ffff00008004951d0200000000000047bfd8cc84
 3737383234313337323036946586942e
 }
 
----------------got packet 12---------
+------got packet 12------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
-source_port: 56324
+source_port: 54924
 dest_port: 9999
-timestamp: 2023-06-05 10:07:09
+timestamp: 1686056472.786999
 total_length: 66
 cache_flag: 1
 steps_flag: 0
 type_flag: 0
 status_code: 0
 cache_control: 1
-data: 0101080aa7aa9bc7a7aa9bc7
+data: 0101080abf8c1095bf8c1095
 }
 
----------------got packet 13---------
+------got packet 13------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
-source_port: 56324
+source_port: 54924
 dest_port: 9999
-timestamp: 2023-06-05 10:07:09
+timestamp: 1686056472.787035
 total_length: 66
 cache_flag: 1
 steps_flag: 0
 type_flag: 0
 status_code: 0
 cache_control: 1
-data: 0101080aa7aa9bc7a7aa9bc7
+data: 0101080abf8c1095bf8c1095
 }
 
----------------got packet 14---------
+------got packet 14------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
 source_port: 9999
-dest_port: 56324
-timestamp: 2023-06-05 10:07:09
+dest_port: 54924
+timestamp: 1686056472.787065
 total_length: 66
 cache_flag: 1
 steps_flag: 0
 type_flag: 0
 status_code: 1
 cache_control: 2
-data: 0101080aa7aa9bc7a7aa9bc7
+data: 0101080abf8c1095bf8c1095
 }
 
----------------got packet 15---------
+------got packet 15------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
 source_port: 9999
-dest_port: 56324
-timestamp: 2023-06-05 10:07:09
+dest_port: 54924
+timestamp: 1686056472.787096
 total_length: 66
 cache_flag: 1
 steps_flag: 0
 type_flag: 0
 status_code: 1
 cache_control: 2
-data: 0101080aa7aa9bc7a7aa9bc7
+data: 0101080abf8c1095bf8c1095
 }
 
----------------got packet 16---------
+------got packet 16------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
-source_port: 56324
+source_port: 54924
 dest_port: 9999
-timestamp: 2023-06-05 10:07:09
+timestamp: 1686056472.787301
 total_length: 66
 cache_flag: 1
 steps_flag: 0
 type_flag: 0
 status_code: 1
 cache_control: 2
-data: 0101080aa7aa9bc8a7aa9bc7
+data: 0101080abf8c1096bf8c1095
 }
 
----------------got packet 17---------
+------got packet 17------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
-source_port: 56324
+source_port: 54924
 dest_port: 9999
-timestamp: 2023-06-05 10:07:09
+timestamp: 1686056472.787389
 total_length: 66
 cache_flag: 1
 steps_flag: 0
 type_flag: 0
 status_code: 1
 cache_control: 2
-data: 0101080aa7aa9bc8a7aa9bc7
+data: 0101080abf8c1096bf8c1095
 }
 
----------------got packet 18---------
+------got packet 18------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
 source_port: 9999
-dest_port: 56324
-timestamp: 2023-06-05 10:07:09
+dest_port: 54924
+timestamp: 1686056472.787422
 total_length: 66
 cache_flag: 1
 steps_flag: 0
 type_flag: 0
 status_code: 0
 cache_control: 2
-data: 0101080aa7aa9bc8a7aa9bc8
+data: 0101080abf8c1096bf8c1096
 }
 
----------------got packet 19---------
+------got packet 19------
 source_ip: 127.0.0.1
 dest_ip: 127.0.0.1
 source_port: 9999
-dest_port: 56324
-timestamp: 2023-06-05 10:07:09
+dest_port: 54924
+timestamp: 1686056472.787456
 total_length: 66
 cache_flag: 1
 steps_flag: 0
 type_flag: 0
 status_code: 0
 cache_control: 2
-data: 0101080aa7aa9bc8a7aa9bc8
+data: 0101080abf8c1096bf8c1096
 }
 
----------------got packet 20---------
+------got packet 20------
 source_ip: 10.0.2.15
-dest_ip: 208.67.222.222
-source_port: 35518
-dest_port: 53
-timestamp: 2023-06-05 10:07:38
-total_length: 100
+dest_ip: 91.189.94.4
+source_port: 60295
+dest_port: 123
+timestamp: 1686056520.713506
+total_length: 90
 cache_flag: 0
 steps_flag: 0
 type_flag: 0
-status_code: 1
+status_code: 0
 cache_control: 0
-data: 12636f6e6e65637469766974792d636865636b06
-7562756e747503636f6d000001000100002905c0
-000000000000
+data: 0000000000000000000000000000000000000000
+0000000000000000e829acc82a80d73b
 }
 
----------------got packet 21---------
-source_ip: 208.67.222.222
+------got packet 21------
+source_ip: 91.189.94.4
 dest_ip: 10.0.2.15
-source_port: 53
-dest_port: 35518
-timestamp: 2023-06-05 10:07:38
-total_length: 244
+source_port: 123
+dest_port: 60295
+timestamp: 1686056520.781636
+total_length: 90
 cache_flag: 0
 steps_flag: 0
 type_flag: 0
-status_code: 1
-cache_control: 0
-data: 12636f6e6e65637469766974792d636865636b06
-7562756e747503636f6d0000010001c00c000100
-010000002d0004b97dbe30c00c00010001000000
-2d0004b97dbe31c00c000100010000002d000422
-7a7920c00c000100010000002d000423e0aa54c0
-0c000100010000002d000423e86f11c00c000100
-010000002d00045bbd5b30c00c00010001000000
-2d00045bbd5b31c00c000100010000002d0004b9
-7dbe11c00c000100010000002d0004b97dbe1200
-00291000000000000000
-}
-
----------------got packet 22---------
-source_ip: 10.0.2.15
-dest_ip: 185.125.190.48
-source_port: 49494
-dest_port: 80
-timestamp: 2023-06-05 10:07:38
-total_length: 74
-cache_flag: 0
-steps_flag: 0
-type_flag: 0
-status_code: 2
-cache_control: 250
-data: 020405b40402080a958bf5eb0000000001030307
-}
-
----------------got packet 23---------
-source_ip: 185.125.190.48
-dest_ip: 10.0.2.15
-source_port: 80
-dest_port: 49494
-timestamp: 2023-06-05 10:07:38
-total_length: 60
-cache_flag: 1
-steps_flag: 0
-type_flag: 0
-status_code: 2
-cache_control: 255
-data: 020405b40000
-}
-
----------------got packet 24---------
-source_ip: 10.0.2.15
-dest_ip: 185.125.190.48
-source_port: 49494
-dest_port: 80
-timestamp: 2023-06-05 10:07:38
-total_length: 54
-cache_flag: 1
-steps_flag: 0
-type_flag: 0
 status_code: 0
-cache_control: 250
-data: 
-}
-
----------------got packet 25---------
-source_ip: 10.0.2.15
-dest_ip: 185.125.190.48
-source_port: 49494
-dest_port: 80
-timestamp: 2023-06-05 10:07:38
-total_length: 141
-cache_flag: 1
-steps_flag: 1
-type_flag: 0
-status_code: 0
-cache_control: 250
-data: 474554202f20485454502f312e310d0a486f7374
-3a20636f6e6e65637469766974792d636865636b
-2e7562756e74752e636f6d0d0a4163636570743a
-202a2f2a0d0a436f6e6e656374696f6e3a20636c
-6f73650d0a0d0a
-}
-
----------------got packet 26---------
-source_ip: 185.125.190.48
-dest_ip: 10.0.2.15
-source_port: 80
-dest_port: 49494
-timestamp: 2023-06-05 10:07:38
-total_length: 60
-cache_flag: 1
-steps_flag: 0
-type_flag: 0
-status_code: 0
-cache_control: 255
-data: 000000000000
-}
-
----------------got packet 27---------
-source_ip: 185.125.190.48
-dest_ip: 10.0.2.15
-source_port: 80
-dest_port: 49494
-timestamp: 2023-06-05 10:07:38
-total_length: 243
-cache_flag: 1
-steps_flag: 1
-type_flag: 0
-status_code: 0
-cache_control: 255
-data: 485454502f312e3120323034204e6f20436f6e74
-656e740d0a7365727665723a206e67696e782f31
-2e31342e3020285562756e7475290d0a64617465
-3a204d6f6e2c203035204a756e20323032332030
-373a30373a333720474d540d0a782d6361636865
-2d7374617475733a2066726f6d20636f6e74656e
-742d63616368652d6773322f300d0a782d6e6574
-776f726b6d616e616765722d7374617475733a20
-6f6e6c696e650d0a636f6e6e656374696f6e3a20
-636c6f73650d0a0d0a
-}
-
----------------got packet 28---------
-source_ip: 10.0.2.15
-dest_ip: 185.125.190.48
-source_port: 49494
-dest_port: 80
-timestamp: 2023-06-05 10:07:38
-total_length: 54
-cache_flag: 1
-steps_flag: 0
-type_flag: 0
-status_code: 0
-cache_control: 250
-data: 
-}
-
----------------got packet 29---------
-source_ip: 185.125.190.48
-dest_ip: 10.0.2.15
-source_port: 80
-dest_port: 49494
-timestamp: 2023-06-05 10:07:38
-total_length: 60
-cache_flag: 1
-steps_flag: 0
-type_flag: 0
-status_code: 1
-cache_control: 255
-data: 000000000000
-}
-
----------------got packet 30---------
-source_ip: 10.0.2.15
-dest_ip: 185.125.190.48
-source_port: 49494
-dest_port: 80
-timestamp: 2023-06-05 10:07:38
-total_length: 54
-cache_flag: 1
-steps_flag: 0
-type_flag: 0
-status_code: 1
-cache_control: 250
-data: 
-}
-
----------------got packet 31---------
-source_ip: 185.125.190.48
-dest_ip: 10.0.2.15
-source_port: 80
-dest_port: 49494
-timestamp: 2023-06-05 10:07:38
-total_length: 60
-cache_flag: 1
-steps_flag: 0
-type_flag: 0
-status_code: 0
-cache_control: 255
-data: 000000000000
+cache_control: 2
+data: 5ec69f0ae829a9abf748cfcee829acc82a80d73b
+e829acc8bc0cd2d7e829acc8bc0ec4f0
 }
 
