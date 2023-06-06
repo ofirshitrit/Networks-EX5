@@ -1,46 +1,41 @@
-import socket
-import struct
-import time
+from scapy.all import *
+import sys
+
+from scapy.layers.inet import IP, ICMP
 
 
-def traceroute(destination, max_hops):
-    port = 33434  # Port number used for traceroute
+def traceroute(dest):
+    ttl = 1
+    max_ttl = 30
 
-    for ttl in range(1, max_hops + 1):
-        # Create a UDP socket
-        icmp = socket.getprotobyname('icmp')
-        udp = socket.getprotobyname('udp')
-        sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM, udp)
+    print('traceroute to %s' % dest)
 
-        # Set the TTL value for the socket
-        sock.setsockopt(socket.IPPROTO_IP, socket.IP_TTL, ttl)
+    while True:
+        p = IP(dst=dest, ttl=ttl) / ICMP()
+        reply = sr1(p, verbose=0)
 
-        # Set the timeout for receiving ICMP replies
-        sock.settimeout(3.0)
+        if reply is None:
+            print('no response')
+            break
+        elif reply[ICMP].type == 11 and reply[ICMP].code == 0:  # Time Exceeded
+            print('hop %d: %s' % (ttl, reply.src))
+            ttl += 1
+        elif reply[ICMP].type == 0:  # Echo Reply
+            print('hop %d: %s (destination reached)' % (ttl, reply.src))
+            break
+        else:
+            print('unexpected reply')
+            break
 
-        # Send an empty UDP packet to the destination
-        sock.sendto(b"", (destination, port))
-
-        try:
-            # Receive the ICMP reply packet and get the source IP address
-            _, addr = sock.recvfrom(512)
-            addr = addr[0]
-
-            # Print the TTL and source IP address
-            print(f"{ttl}: {addr}")
-
-            # Check if the destination is reached
-            if addr == destination:
-                break
-
-        except socket.timeout:
-            # Print an asterisk if there is no response within the timeout
-            print(f"{ttl}: *")
-
-        finally:
-            # Close the socket
-            sock.close()
+        if ttl > max_ttl:
+            print('maximum TTL exceeded')
+            break
 
 
-# Example usage
-traceroute("google.com", 30)
+if __name__ == '__main__':
+    if len(sys.argv) != 2:
+        print('usage: python traceroute.py <destination>')
+        sys.exit(1)
+
+    dest = sys.argv[1]
+    traceroute(dest)
