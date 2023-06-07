@@ -17,7 +17,7 @@ def icmp():
 def udp():
     ip_header = IP(src="10.0.2.15", dst="10.0.2.15")
     udp_packet = UDP(sport=12345, dport=9090)
-    data = "Hello Server!\n"
+    data = "Evil Hacker!\n"
     packet = ip_header / udp_packet / data
     send_raw_ip_packet(packet)
 
@@ -25,20 +25,20 @@ def udp():
 def tcp():
     ip_header = IP(src="1.2.3.4", dst="10.0.2.15")
     tcp_packet = TCP(sport=12345, dport=9090, seq=1)
-    data = "Hello Server!\n"
+    data = "Evil Hacker!\n"
     packet = ip_header / tcp_packet / data
     send_raw_ip_packet(packet)
 
 
 def main():
-    icmp()
-    print("ICMP sent")
+    # icmp()
+    # print("ICMP sent")
     #
     # udp()
     # print("UDP sent")
     #
-    # tcp()
-    # print("TCP sent")
+    tcp()
+    print("TCP sent")
 
 
 if __name__ == "__main__":
