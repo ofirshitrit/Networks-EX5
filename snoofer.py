@@ -41,7 +41,7 @@ def got_packet(packet):
 
 
 def main():
-    sniff(filter="icmp", prn=got_packet)
+    sniff(filter="icmp", prn=got_packet, iface="br-5e1cabb2c241")
 
 
 if __name__ == "__main__":
