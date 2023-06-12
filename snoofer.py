@@ -41,7 +41,17 @@ def got_packet(packet):
 
 
 def main():
-    sniff(filter="icmp", prn=got_packet, iface="br-5e1cabb2c241")
+    # Get the list of available interfaces
+    iface_list = get_if_list()
+
+    # Find the first interface that starts with "br-"
+    iface = next((i for i in iface_list if i.startswith("br-")), None)
+
+    if iface:
+        # Sniff ICMP packets on the chosen interface
+        sniff(filter="icmp", prn=got_packet, iface=iface)
+    else:
+        print("No interface starting with 'br-' found.")
 
 
 if __name__ == "__main__":

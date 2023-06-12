@@ -109,8 +109,5 @@ def sniffer():
         sniffer_socket.close()
 
 
-
-
-
 # Start the sniffer
 sniffer()
